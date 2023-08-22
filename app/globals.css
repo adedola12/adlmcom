@@ -5,7 +5,7 @@
 @layer components {
     /* main */
     .main-container {
-      @apply flex min-h-screen flex-1 flex-col items-center bg-dark-1 px-6 pb-10 pt-28 max-md:pb-32 sm:px-10;
+      @apply flex min-h-screen flex-1 flex-col items-center bg-cyan-950 px-6 pb-10 pt-28 max-md:pb-32 sm:px-10;
     }
   
     /* Head Text */
@@ -15,7 +15,7 @@
   
     /* Activity */
     .activity-card {
-      @apply flex items-center gap-2 rounded-md bg-dark-2 px-7 py-4;
+      @apply flex items-center gap-2 rounded-md bg-cyan-900 px-7 py-4;
     }
   
     /* No Result */
@@ -25,7 +25,7 @@
   
     /* Community Card */
     .community-card {
-      @apply w-full rounded-lg bg-dark-3 px-4 py-5 sm:w-96;
+      @apply w-full rounded-lg bg-cyan-700 px-4 py-5 sm:w-96;
     }
   
     .community-card_btn {
@@ -39,7 +39,7 @@
   
     /* User card */
     .user-card {
-      @apply flex flex-col justify-between gap-4 max-xs:rounded-xl max-xs:bg-dark-3 max-xs:p-4 xs:flex-row xs:items-center;
+      @apply flex flex-col justify-between gap-4 max-xs:rounded-xl max-xs:bg-cyan-700 max-xs:p-4 xs:flex-row xs:items-center;
     }
   
     .user-card_avatar {
@@ -51,15 +51,15 @@
     }
   
     .searchbar {
-      @apply flex gap-1 rounded-lg bg-dark-3 px-4 py-2;
+      @apply flex gap-1 rounded-lg bg-cyan-700 px-4 py-2;
     }
   
     .searchbar_input {
-      @apply border-none bg-dark-3 text-base-regular text-light-4 outline-none !important;
+      @apply border-none bg-cyan-700 text-base-regular text-light-4 outline-none !important;
     }
   
     .topbar {
-      @apply fixed top-0 z-30 flex w-full items-center justify-between bg-dark-2 px-6 py-3;
+      @apply fixed top-0 z-30 flex w-full items-center justify-between bg-cyan-900 px-6 py-3;
     }
   
     .bottombar {
@@ -75,7 +75,7 @@
     }
   
     .leftsidebar {
-      @apply sticky left-0 top-0 z-20 flex h-screen w-fit flex-col justify-between overflow-auto border-r border-r-dark-4 bg-dark-2 pb-5 pt-28 max-md:hidden;
+      @apply sticky left-0 top-0 z-20 flex h-screen w-fit flex-col justify-between overflow-auto border-r border-r-dark-4 bg-cyan-900 pb-5 pt-28 max-md:hidden;
     }
   
     .leftsidebar_link {
@@ -87,7 +87,7 @@
     }
   
     .rightsidebar {
-      @apply sticky right-0 top-0 z-20 flex h-screen w-fit flex-col justify-between gap-12 overflow-auto border-l border-l-dark-4 bg-dark-2 px-10 pb-6 pt-28 max-xl:hidden;
+      @apply sticky right-0 top-0 z-20 flex h-screen w-fit flex-col justify-between gap-12 overflow-auto border-l border-l-dark-4 bg-cyan-900 px-10 pb-6 pt-28 max-xl:hidden;
     }
   }
   
