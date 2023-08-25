@@ -1,5 +1,5 @@
 
-import { fetchPost } from "@/lib/actions/thread.actions";
+import { fetchPosts } from "@/lib/actions/thread.actions";
 import { currentUser } from "@clerk/nextjs";
 
 
@@ -7,7 +7,7 @@ import ThreadCard from "@/components/cards/ThreadCard";
 
 export default async function Home() {
 
-const result = await fetchPost(1, 30)
+const result = await fetchPosts(1, 30)
 const user = await currentUser()
 
 
